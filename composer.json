@@ -1,0 +1,25 @@
+{
+  "name": "rodrigod22/converte-xls-fatec",
+  "description": "script para converter csv para padrao de cadastro de alunos em lote no moodle",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Rodrigo A. Peixoto",
+      "email": "rodrigo.peixoto@fatec.sp.gov.br",
+      "role": "Developer",
+      "homepage": "https://www.rpasistemas.com.br"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    }
+  },
+  "require": {
+    "league/csv": "^9.6"
+  }
+}
