@@ -1,3 +1,3 @@
 # converte-csv-fatec
 Aplicação para converter lista de alunos, converter uma lista enviada pela secretaria para o padrão de registros de alunos em lote no moodle, já cadastrando também os alunos nas suas disciplinas. 
-O arquivo convertido deve ser convertido em formato csv com os campos no cabeçalho "RA", "ALUNO", "EMAIL", "TURNO", "CPF", "CURSO", "DISCIPLINA" ou arquivo convertido para formato padrão para importar no moodle onde o nome de usuário é uma matrícula. Os nomes do campo "CURSO" devem ser "ADS", "GE", "GP", "LOG" e "SI" e no campo "TURNO" para Manha "M", Tarde "T" e Noite "N" exatamente assim como conversor para o nome abreviado do moodle
+O arquivo a ser convertido deve vir no formato csv com os campos no header "RA", "ALUNO", "EMAIL", "TURNO", "CPF", "CURSO", "DISCIPLINA" o arquivo sera convertido para o formato especificado para importação no moodle onde o username sera a matricula siga o exemplo abaixo:
